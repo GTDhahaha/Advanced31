@@ -5,10 +5,10 @@ int main(void)
 FILE *fptr; 
 char word[81],ch,i,j;
 int count=0;
-fptr=fopen("Clause.txt","r") ;
+fptr=fopen("Example.txt","r") ;
 if (fptr!=NULL)
 { 
-	printf("Clause:\n");
+	printf("Example sentence:\n");
 	while ((ch=getc(fptr))!=EOF)
 	{	
 		printf("%c",ch);
